@@ -1,5 +1,2 @@
 .libPaths("../../R-Portable/App/R-Portable/library")
-install.packages('shiny')
-install.pakages('rhandsontable')
-install.packages('pracma')
 shiny::runApp("./",port=8888,launch.browser=TRUE)
