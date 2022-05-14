@@ -1,0 +1,5 @@
+install.packages('shiny')
+install.packages('rhandsontable')
+install.packages('pracma')
+install.packages('minpack.lm')
+install.packages('deSolve')
