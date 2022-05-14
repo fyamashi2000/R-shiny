@@ -68,4 +68,8 @@ shinyServer(function(input, output, session) {
       updateTabsetPanel(session, "tabs", selected = "Result")
     })
     
+    session$onSessionEnded(function(){
+        stopApp()
+        q("no")
+    })
 })
