@@ -41,7 +41,7 @@ shinyServer(function(input, output, session) {
       p <- p[is.na(p)==F]
       
       source("multi_rk.R")
-      model <- nlm(p,data,isAbsError=TRUE)
+      model <- nlm(p,data,input$weight)
       print(model)
       res <- summary(model)
       output$summary <- renderText(paste0(capture.output(res),"\n"))
