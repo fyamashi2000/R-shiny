@@ -1,5 +1,5 @@
 # R-shiny
-1) Rがまだインストールされていない場合は、Sourforge ( https://sourceforge.net/projects/rportable/ ) からR-Portableをダウンロードしてインストールしてください。
+1) Rがインストールされていない場合は、Sourforge ( https://sourceforge.net/projects/rportable/ ) から R-Portable(R-Portable_4.1.2.paf.exe) をダウンロードしてインストールしてください。
 2) R-Portable.exeを起動し、File-Open R Scriptメニューからinstall_packages.Rを読み込んで実行してください（初回のみです）。
 3) ファイルの階層構造を次の通りしてください。
    Apps/
@@ -17,4 +17,4 @@
        |  └ run.vbs
        └ multi_rk/
           └ run.vbs
-4) プログラムは各フォルダのrun.vbsをダブルクリックして起動してください。R-Portableを起動する必要はありません。
+4) プログラムを起動するときは各フォルダのrun.vbsをダブルクリックしてください。R-Portableを起動する必要はありません。
