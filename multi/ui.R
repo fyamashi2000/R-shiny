@@ -11,8 +11,10 @@ shinyUI(fluidPage(
 
     sidebarLayout(
         sidebarPanel(
-          h3("初期パラメータ"),
+          h4("初期パラメータ"),
           rHandsontableOutput("p_table"),
+          h2(" "),
+          radioButtons("weight","重みづけ",choices=list("絶対誤差"=TRUE,"相対誤差"=FALSE)),
           actionButton("submit", "計算実行")
           
         ),
